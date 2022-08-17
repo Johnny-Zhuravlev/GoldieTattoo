@@ -6,11 +6,11 @@
         poster="../assets/img/HeroPoster.jpg"
         muted
         loop
+        autoplay
+        preload="auto"
       >
-        <source
-          src="../assets/img/Moveton.mp4"
-          type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-        />
+        <source src="../assets/img/Moveton.webm" type="video/webm" />
+        <source src="../assets/img/Moveton.mp4" type="video/mp4" />
       </video>
 
       <div class="hero-content">

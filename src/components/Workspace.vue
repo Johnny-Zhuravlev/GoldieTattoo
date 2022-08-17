@@ -4,13 +4,13 @@
       <video
         class="workspace-video-bg"
         poster="../assets/img/workspacePoster.jpg"
+        autoplay
         muted
         loop
+        preload="auto"
       >
-        <source
-          src="../assets/img/workspace.mp4"
-          type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-        />
+        <source src="../assets/img/workspace.webm" type="video/webm" />
+        <source src="../assets/img/workspace.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="workspace-info-right">

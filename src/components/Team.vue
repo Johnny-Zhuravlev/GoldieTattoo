@@ -99,7 +99,7 @@ export default {
   margin-bottom: 15px;
 
   border-radius: 10px;
-  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.2);
 
   transition: all 0.3s linear;
 }
